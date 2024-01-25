@@ -1,0 +1,12 @@
+.chart-main-cont {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+@media screen and (max-width: 425px) {
+    .chart-main-cont {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+}

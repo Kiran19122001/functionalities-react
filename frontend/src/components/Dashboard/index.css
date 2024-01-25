@@ -1,0 +1,52 @@
+img {
+    height: 700px;
+    width: 700px;
+}
+
+.carousal-main-cont {
+    background-color: rgb(187, 187, 187) !important;
+    padding: 30px;
+}
+
+.name {
+    font-size: 20px;
+    color: blue;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 20px;
+    color: rgb(219, 78, 17);
+    font-weight: 600;
+}
+
+.milage {
+    font-size: 20px;
+    color: rgb(97, 17, 117);
+    font-weight: 600;
+}
+
+.popup-button {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 425px) {
+    .name {
+        font-size: 15px;
+        font-weight: 550;
+    }
+
+    .price {
+        font-size: 15px;
+        font-weight: 550;
+    }
+
+    .milage {
+        font-size: 15px;
+        font-weight: 550;
+    }
+
+    img {
+        height: 500px;
+    }
+}

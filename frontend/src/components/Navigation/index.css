@@ -1,0 +1,38 @@
+.header-container {
+    margin-top: 20px;
+    padding: 15px 0px 5px 0px;
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-pages li {
+    list-style: none;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+    .nav-pages li {
+        margin-right: 20px;
+        font-size: 17px;
+    }
+}
